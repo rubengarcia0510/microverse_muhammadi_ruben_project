@@ -93,3 +93,25 @@
     margin-top: -5px;
 }
 
+
+#profile-link{
+    padding: 120px 0px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    height: 700px;
+    background-color: rgb(47, 45, 50, 1);
+}
+
+#profile-link h1{
+    color: white;
+    font-size: 6vh;
+    font-weight: normal;
+}
+
+#profile-link .content p{
+    color: white;
+    margin: 20px 0px;
+}
