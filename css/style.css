@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    background-color: rgb(190, 49, 68);
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-top: 20px !important;
+}
+
+.navbar .item{
+    text-decoration: none;
+    color: white;
+    padding: 20px !important;
+    font-size: 25px;   
+}
+
+.header{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(47, 45, 50, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.header .content h1{
+    font-size: 7vh;
+    color: white;
+}
+
+.header .content h4{
+    color: brown;
+    font-size: 30px;
+    margin: 30px 0px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+#projects{
+    width: 100%;
+    padding: 120px 0;
+    background-color: rgb(69, 85, 125);
+}
+
+.project-title{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 4vh;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.card{
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.card h2{
+    background-color: rgb(47, 45, 50, 1);
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: -5px;
+}
+
