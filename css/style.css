@@ -2,10 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'arial';
+}
+
+h1, h2 , h3 , h4 , h5 , h6 ,p , div , a {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 70px;
     text-align: right;
@@ -31,8 +41,8 @@
 
 .header{
     width: 100%;
-    height: 800px;
-    background-color: rgb(47, 45, 50, 1);
+    height: 100vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     text-align: center;
     display: flex;
     align-items: center;
@@ -59,7 +69,7 @@
     background-color: rgb(69, 85, 125);
 }
 
-.project-title{
+.project-tile{
     text-align: center;
     text-decoration: underline;
     color: white;
@@ -94,24 +104,82 @@
 }
 
 
-#profile-link{
+.profile-link{
     padding: 120px 0px; 
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     vertical-align: center;
-    height: 700px;
-    background-color: rgb(47, 45, 50, 1);
+    height: 750px;
+    background-color: rgb(48, 56, 65, 1);
 }
 
-#profile-link h1{
+.profile-link .content h2{
     color: white;
-    font-size: 6vh;
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.profile-link .content p{
+    font-style: italic;
+    color: white;
+    margin: 20px 0px 50px;
     font-weight: normal;
 }
 
-#profile-link .content p{
+
+#social a{
+    text-decoration: none;
     color: white;
-    margin: 20px 0px;
+    font-size: 25px;
+    margin: 20px;
 }
+
+footer #line{
+    width: 100%;
+    content: '';
+    height: 5px;
+    background-color: rgb(190, 49, 68);;
+}
+
+
+footer{
+    background-color: rgb(48, 56, 65, 1);
+}
+
+footer .contents{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: right;
+    padding: 10px;
+}
+
+footer .contents div{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer .contents{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: right;
+        padding: 10px;
+    }
+
+    #social a{
+        display: block;
+    }
+} 

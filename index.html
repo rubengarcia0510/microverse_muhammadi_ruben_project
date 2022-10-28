@@ -3,40 +3,44 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
   </head>
-
   <body>
 
-
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <ul>
         <li>
-          <a href="" class="item">About</a>
+          <a href="#welcome-section" class="item"> About</a>
         </li>
         <li>
-          <a href="" class="item">Work</a>
+          <a href="#projects" class="item">Work</a>
         </li>
         <li>
-          <a href="" class="item">Contact</a>
+          <a href="#contact" class="item">Contact</a>
         </li>
       </ul>
     </nav>
 
-    <header class="header">
+    <header class="header" id="welcome-section">
       <div class="content">
           <h1>Hey, I'm Haris</h1>
           <h4><em>a web developer</em></h4>
       </div>
     </header>
 
-
     <section id="projects">
-      <h1 class="project-title">There are some of my projects</h1>
+      <h1 class="project-tile">There are some of my projects</h1>
+      <br>
+      <br>
+      <br>
       <div class="container">
           <div class="card">
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
-            <h2>Tribute Page</h2>
+            <a href="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
+              <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+              <h2>Tribute Page</h2>
+            </a>
           </div>
           <div class="card">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
@@ -64,31 +68,28 @@
     </section>
 
 
-    <section id="profile-link">
-        <div class="content">
-            <h1>Let's work together...</h1>
+    <section class="profile-link" id="contact">
+        <div class="content" >
+            <h2>Let's work together...</h2>
             <p>How do you take your coffee?</p>
-            <div class="" id="social">
-              <a href=""> <span class="fa fa-facebook"></span> Facebook</a>
-              <a href=""> <span class="fa fa-facebook"></span> Github</a>
-              <a href=""> <span class="fa fa-facebook"></span> Twiter</a>
-              <a href=""> <span class="fa fa-facebook"></span> Send a Mail</a>
-              <a href=""> <span class="fa fa-facebook"></span> Call Me</a>
+            <div id="social">
+              <a target="_blank" href="https://github.com/rubengarcia0510/microverse_muhammadi_ruben_project"> <span class="fa fa-facebook"></span> Facebook</a>
+              <a target="_blank" id="profile-link" 
+              href="https://github.com/mohammadhares"> <span class="fa fa-github"></span> Github</a>
+              <a target="_blank" href="https://github.com/rubengarcia0510/microverse_muhammadi_ruben_project"> <span class="fa fa-twiter"></span> Twiter</a>
+              <a target="_blank" href="https://github.com/rubengarcia0510/microverse_muhammadi_ruben_project"> <span class="fa fa-envelope"></span> Send a Mail</a>
+              <a target="_blank" href="https://github.com/rubengarcia0510/microverse_muhammadi_ruben_project"> <span class="fa fa-phone"></span> Call Me</a>
             </div>
         </div>
     </section>
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <footer>
+      <div id="line"></div>
+      <div class="contents">
+          <div>**This is just a fake portfolio. All the projects and contact details given are not real.</div>
+          <div>© Created for freeCodeCamp </div>
+      </div>
+    </footer>
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
